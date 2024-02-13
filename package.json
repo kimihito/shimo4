@@ -12,6 +12,7 @@
     "pages:deploy": "npm run build && wrangler pages deploy ./public"
   },
   "dependencies": {
+    "@picocss/pico": "^2.0.0",
     "@remix-run/cloudflare": "^2.6.0",
     "@remix-run/cloudflare-pages": "^2.6.0",
     "@remix-run/css-bundle": "^2.6.0",

@@ -9,6 +9,8 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+import "@picocss/pico/css/pico.min.css"
+
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
